@@ -24,3 +24,13 @@ LEFT JOIN pg_catalog.pg_description pd ON pd.objoid = st.relid
 WHERE cols.table_schema = 'public'
 LIMIT 50;
 ```
+## Карта связей
+```sql
+SELECT
+    conname AS constraint_name,
+    conrelid::regclass AS table_from,
+    confrelid::regclass AS table_to
+FROM pg_constraint
+WHERE contype = 'f' 
+  AND connamespace = 'public'::regnamespace;
+```
