@@ -1,6 +1,6 @@
 # Analyze-DataBase
 ## ОГЛАВЛЕНИЕ
-[Обзор схем](#audit/schema_overview.md) — сколько у нас таблиц.
+[Обзор схем](https://github.com/Igor69-web/Analyze-DataBase/blob/main/audit/schema_overview.md) — сколько у нас таблиц.
 
 
 ## 🚀 Анализ активности таблиц
