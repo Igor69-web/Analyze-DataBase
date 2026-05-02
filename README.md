@@ -1,10 +1,12 @@
 # Analyze-DataBase
 ## ОГЛАВЛЕНИЕ
 ### 📂 Структура репозитория
-* `audit/` — скрипты для анализа состояния БД.
-  * [Обзор схем](https://github.com/Igor69-web/Analyze-DataBase/blob/main/audit/schema_overview.md) — сколько у нас таблиц.
-  * [Тяжелые таблицы](https://github.com/Igor69-web/Analyze-DataBase/blob/main/audit/top_heavy_tables.md) — где занято место.
-  * [Активность](https://github.com/Igor69-web/Analyze-DataBase/blob/main/audit/table_activity.md) — что реально используется.
+* `audit/` - скрипты для анализа состояния БД.
+  * [Обзор схем](https://github.com/Igor69-web/Analyze-DataBase/blob/main/audit/schema_overview.md) - сколько у нас таблиц.
+  * [Тяжелые таблицы](https://github.com/Igor69-web/Analyze-DataBase/blob/main/audit/top_heavy_tables.md) - где занято место.
+  * [Активность](https://github.com/Igor69-web/Analyze-DataBase/blob/main/audit/table_activity.md) - что реально используется.
+ * `performance/` - фишечные скрипты SQL
+  * [Долгие запросы](https://github.com/Igor69-web/Analyze-DataBase/blob/main/performance/active_queries.md) - если тормозит таблица.
 
 ### 🛠️ Используемые инструменты
 * PostgreSQL 13+
