@@ -7,7 +7,7 @@
   * [Активность](https://github.com/Igor69-web/Analyze-DataBase/blob/main/audit/table_activity.md) - что реально используется.
  * `performance/` - фишечные скрипты SQL
    * [Проверка БД](https://github.com/Igor69-web/Analyze-DataBase/blob/main/performance/active_queries.md) - если тормозит БД.
- * `window function/ - Оконные функции
+ * `window function/` - Оконные функции
    * [Основы](https://github.com/Igor69-web/Analyze-DataBase/blob/main/window%20function/script.md) - Теория оконных функций.
 
 ### 🛠️ Используемые инструменты
