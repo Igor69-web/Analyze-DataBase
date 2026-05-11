@@ -34,3 +34,10 @@ FROM pg_constraint
 WHERE contype = 'f' 
   AND connamespace = 'public'::regnamespace;
 ```
+## Описание таблицы
+>Для того чтобы посмотреть описание созданной таблицы, можно воспользоваться SQL запросом к информационной схеме
+```sql
+SELECT column_name, data_type, is_nullable, column_default
+FROM information_schema.columns
+WHERE table_schema = current_schema() AND table_name = 'users';
+```
