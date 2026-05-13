@@ -9,6 +9,8 @@
    * [Проверка БД](https://github.com/Igor69-web/Analyze-DataBase/blob/main/performance/active_queries.md) - если тормозит БД.
  * `window function/` - Оконные функции
    * [Основы](https://github.com/Igor69-web/Analyze-DataBase/blob/main/window%20function/script.md) - Теория оконных функций.
+ * `INDEX/` - Индексы в SQL
+   * [Основы использование индексов](https://github.com/Igor69-web/Analyze-DataBase/blob/main/index/index_in_sql.md) - Теория индексов
 
 ### 🛠️ Используемые инструменты
 * PostgreSQL 13+
